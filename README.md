@@ -2,7 +2,7 @@
 
 An interactive cat simulation where cute virtual cats follow your cursor and interact with their environment.
 
-![Lil-Cats Screenshot](https://cdn.reverse.dev/pictures/lil-cats.png)
+![Lil-Cats Screenshot](https://cdn.reversed.dev/pictures/lil-cats.png)
 
 ## Features
 
