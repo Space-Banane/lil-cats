@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lil-cats.example.com/sitemap.xml
