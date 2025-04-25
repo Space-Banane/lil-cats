@@ -16,7 +16,7 @@ An interactive cat simulation where cute virtual cats follow your cursor and int
 
 ## Live Demo
 
-Visit [https://lil-cats.example.com](https://lil-cats.example.com) to see Lil-Cats in action.
+Visit [https://cats.reversed.dev](https://cats.reversed.dev) to see Lil-Cats in action.
 
 ## Getting Started
 
@@ -25,11 +25,11 @@ Visit [https://lil-cats.example.com](https://lil-cats.example.com) to see Lil-Ca
 - Node.js (v22.0.0 or higher)
 - pnpm (v8.0.0 or higher)
 
-### Installation
+### Installation (dev server)
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/lil-cats.git
+   git clone https://github.com/Space-Banane/lil-cats.git
    cd lil-cats
    ```
 
@@ -44,6 +44,23 @@ Visit [https://lil-cats.example.com](https://lil-cats.example.com) to see Lil-Ca
    ```
 
 4. Open your browser and navigate to `http://localhost:5173`
+
+### Installation (Docker; Prod Server)
+1. Clone the repository
+   ```bash
+   git clone https://github.com/Space-Banane/lil-cats.git
+   cd lil-cats
+   ```
+
+2. Start the Container
+   ```bash
+   docker-compose up -d
+   ```
+3. Open your browser and navigate to `http://localhost:1231`
+4. Stop the Container
+   ```bash
+   docker-compose down
+   ```
 
 ## How to Use
 

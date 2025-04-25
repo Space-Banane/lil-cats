@@ -1,0 +1,12 @@
+services:
+  app:
+    image: node:22.5.1
+    volumes:
+      - .:/app
+    container_name: lil-cats
+    working_dir: /app
+    restart: always
+    ports:
+      - 0.0.0.0:1231:3000 # Host:Container
+    entrypoint: ["./entrypoint.sh"]
+networks: {}
